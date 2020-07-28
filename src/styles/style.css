@@ -36,3 +36,48 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background-image: url("../images/banner.png");
+  color: #FFFFFF;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+.header {
+  margin-bottom: 15px;
+}
+.header-name {
+  margin-bottom: 10px;
+}
+
+.header-description {
+  text-align: center
+}
+
+
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #FFFFFF;
+}
+
+.btn-outline-white:hover {
+  background-color: #ffffff;
+  color: #303846;
+
+}
