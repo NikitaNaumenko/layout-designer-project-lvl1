@@ -4,3 +4,35 @@ body {
   font-size: 16px;
   color: #303846;
 }
+
+.nav {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-name {
+  margin-left: 10px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  padding: 15px;
+  color: #303846;
+  font-weight: bold;
+  text-decoration: none;
+}
