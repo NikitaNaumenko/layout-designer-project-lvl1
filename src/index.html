@@ -31,7 +31,7 @@
         <div class="header-description">Место откуда не хочется улетать</div>
       </div>
 
-      <button class="btn btn-outline-white">Забронировать</button>
+      <a href="#issue-section" class="btn btn-outline-white">Забронировать</a>
     </div>
     <section id="advantages" class="row">
       <div class="col">
@@ -64,12 +64,12 @@
         </div>
       </div>
       <div class="col">
-        <img src="images/moon-1.jpg" class="section-image">
+        <img src="images/moon-1.jpg" class="section-image p-50">
       </div>
     </section>
     <section id="relax" class="row justify-content-space-around">
       <div class="col">
-        <img src="images/moon-2.jpg" class="section-image">
+        <img src="images/moon-2.jpg" class="section-image p-50">
       </div>
       <div class="col">
         <h2>Места для отдыха</h2>
@@ -79,6 +79,44 @@
           Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
         </div>
       </div>
+    </section>
+    <section id="issue-section" class="issue-section">
+      <form class="p-50 issue-form">
+        <fieldset class="fieldset-issue">
+          <legend>Параметры квартиры</legend>
+          <div class="field">
+            <label for="rooms">Количество комнат:</label>
+            <select class="issue-select" name="rooms">
+              <option value="1" selected>1</option> 
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="design">Отделка:</label>
+            <select class="issue-select" name="design">
+              <option value="none" selected>Без отделки</option> 
+              <option value="full">Евроремонт</option>
+              <option value="part">Черновая отделка</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset class="fieldset-issue">
+          <legend>Контактная информация</legend>
+          <div class="field">
+            <label for="name">Имя:</label>
+            <input class="issue-input" type="text" id="name">
+          </div>
+          <div class="field">
+            <label for="phone">Телефон:</label>
+            <input class="issue-input" type="text" id="phone">
+          </div>
+          <div class="field">
+            <label for="email">E-mail:</label>
+            <input class="issue-input" type="text" id="email">
+          </div>
+        </fieldset>
+      </form>
     </section>
   </main>
   <footer>
