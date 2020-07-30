@@ -3,7 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #303846;
-  margin: 0px;
 }
 
 .nav {
@@ -13,17 +12,17 @@ body {
   justify-content: space-between;
 }
 
-.nav-brand {
+.footer-brand, .nav-brand {
   display: flex;
   align-items: center;
 }
 
-.nav-logo {
+.footer-logo, .nav-logo {
   width: 35px;
   height: 35px;
 }
 
-.nav-name {
+.footer-name, .nav-name {
   margin-left: 10px;
 }
 
@@ -44,6 +43,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 25px;
 }
 .main-jumbotron {
   background-image: url("../images/banner.png");
@@ -95,6 +95,7 @@ body {
 
 .section-image {
   width: 300px;
+  padding: 50px;
 }
 .justify-content-space-around {
   justify-content: space-around;
@@ -136,4 +137,17 @@ body {
   padding: 3px 5px;
   border-radius: 6px;
   border: 1px solid #000000;
+}
+
+.footer {
+  color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #303846;
+}
+
+.footer-link {
+  color: #FFFFFF;
+  text-decoration: none;
 }
