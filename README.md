@@ -1,6 +1,6 @@
 # Layout designer project lvl 1
 
-[Ссылка на проект](http://bewildered-bottle.surge.sh)
+[Ссылка на проект](http://berserk-verse.surge.sh)
 
 ## Setup
 
