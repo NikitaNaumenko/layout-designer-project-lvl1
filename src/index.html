@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header header-fixed">
     <div class="display-flex align-items-center margin-right-auto margin-left-1">
       <img alt="Лунное море логотип" class="nav-logo" src="images/logo.svg">
       <span class="margin-left-1">Лунное море</span>
@@ -22,18 +22,18 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="margin-top-main">
     <div class="jumbotron main-jumbotron text-white padding-y-5 text-align-center">
       <img alt="Лунное море логотип" src="images/logo.svg" class="big-logo">
-      <div class="margin-bottom-1">
-        <h1 class="">ЖК "Лунное море"</h1>
-        <div class="">Место откуда не хочется улетать</div>
+      <div class="content-width margin-bottom-1">
+        <h1>ЖК "Лунное море"</h1>
+        <div>Место откуда не хочется улетать</div>
       </div>
 
       <a href="#issue-section" class="btn btn-outline-white">Забронировать</a>
     </div>
     <div class="container display-flex justify-content-center">
-      <section id="advantages" class="row padding-y-3 justify-content-space-between">
+      <section id="advantages" class="row content-width padding-y-3 justify-content-space-between">
         <div class="col-4">
           <h2>Уникальный вид</h2>
           <p>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="container display-flex justify-content-center background-color-gray">
-     <section id="about" class="row padding-y-3 justify-content-space-between">
+     <section id="about" class="row content-width padding-y-3 justify-content-space-between">
         <div class="col-6">
           <h2>О ЖК «Лунное море»</h2>
           <p>
@@ -71,7 +71,7 @@
       </section>
     </div>
     <div class="container display-flex justify-content-center">
-      <section id="relax" class="row padding-y-3 justify-content-space-between">
+      <section id="relax" class="row content-width padding-y-3 justify-content-space-between">
           <div class="col-4">
             <img alt="Лунный поселок" src="images/moon-2.jpg" class="section-image">
           </div>
@@ -85,8 +85,8 @@
           </div>
         </section>
    </div>
-    <div class="container display-flex justify-content-center">
-    <section id="issue-section" class="issue-section">
+    <div class="container display-flex justify-content-center background-color-gray">
+    <section id="issue-section" class="row flex-direction-column align-items-center content-width padding-y-3">
       <h2>Оставьте заявку сегодня!</h2>
       <form class="issue-form">
         <fieldset class="fieldset-issue">
@@ -137,7 +137,7 @@
         <div class="margin-left-3">2032 год</div>
       </div>
       <div class="col-4">
-        <h4>Проектная документация</h4>
+        <h2>Проектная документация</h2>
         <ul>
           <li>
             <a class="link-without-decoration text-white" href="#">Скачать</a>
@@ -149,7 +149,7 @@
       </div>
 
       <div class="col-4">
-        <h4>О застройщике</h4>
+        <h2>О застройщике</h2>
         <ul>
           <li>
             <a class="link-without-decoration text-white" href="#">Отзывы</a>
