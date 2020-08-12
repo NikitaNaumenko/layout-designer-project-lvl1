@@ -1,14 +1,27 @@
 /** CSS STYLE **/
+:root {
+  --header-height: 68px;
+  --white: #fff;
+  --dark: #303846;
+  --light-green: #49a070;
+  --black: #000;
+  --light: #f7f7f7;
+}
+
 body {
   margin: 0;
 
-  color: #303846;
+  color: var(--dark);
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .display-flex {
   display: flex;
+}
+
+.w-25 {
+  width: 25%;
 }
 
 .align-items-center {
@@ -45,6 +58,10 @@ body {
 
 .margin-left-3 {
   margin-left: 3rem;
+}
+
+.margin-left-auto {
+  margin-left: auto;
 }
 
 .margin-bottom-1 {
@@ -91,7 +108,8 @@ body {
 
 /* grid */
 .container {
-  width: 100%;
+  display: flex;
+  width: 1000px;
 }
 
 .col-4 {
@@ -152,7 +170,7 @@ body {
 }
 
 .margin-top-main {
-  margin-top: 68px;
+  margin-top: var(--header-height);
 }
 
 .header {
@@ -161,7 +179,7 @@ body {
   width: 100%;
   padding: 10px;
 
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .header-name {
@@ -181,39 +199,31 @@ body {
 }
 
 .btn-outline-white {
-  color: #fff;
+  color: var(--white);
 
   background-color: transparent;
 
-  border: 1px solid #fff;
+  border: 1px solid var(--white);
 }
 
 .btn-outline-white:hover {
-  color: #303846;
+  color: var(--dark);
 
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .btn-outline-green {
-  color: #49a070;
+  color: var(--light-green);
 
   background-color: transparent;
 
-  border: 1px solid #49a070;
+  border: 1px solid var(--light-green);
 }
 
 .btn-outline-green:hover {
-  color: #fff;
+  color: var(--white);
 
-  background-color: #49a070;
-}
-
-.row {
-  display: flex;
-}
-
-.content-width {
-  width: 1000px;
+  background-color: var(--light-green);
 }
 
 .section-image {
@@ -230,9 +240,9 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 
-  color: #49a070;
+  color: var(--light-green);
 
-  border-color: #49a070;
+  border-color: var(--light-green);
 }
 
 .field {
@@ -246,7 +256,7 @@ body {
   width: 150px;
   padding: 3px 5px;
 
-  border: 1px solid #000;
+  border: 1px solid var(--black);
   border-radius: 6px;
 }
 
@@ -255,9 +265,9 @@ body {
   justify-content: space-around;
   width: 100%;
 
-  background-color: #303846;
+  background-color: var(--dark);
 }
 
 .about-section {
-  background-color: #f7f7f7;
+  background-color: var(--light);
 }

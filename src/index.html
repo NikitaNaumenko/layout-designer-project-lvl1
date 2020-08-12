@@ -10,11 +10,11 @@
 </head>
 <body>
   <header class="header header-fixed">
-    <div class="display-flex align-items-center margin-right-auto margin-left-1">
+    <div class="display-flex align-items-center">
       <img alt="Лунное море логотип" class="nav-logo" src="images/logo.svg">
       <span class="margin-left-1">Лунное море</span>
     </div>
-    <nav class="nav">
+    <nav class="nav margin-left-auto ">
       <div class="nav-items">
         <a href="#advantages" class="nav-item">Преимущества</a>
         <a href="#about" class="nav-item">О ЖК</a>
@@ -24,16 +24,18 @@
   </header>
   <main class="margin-top-main">
     <div class="jumbotron main-jumbotron text-white padding-y-5 text-align-center">
-      <img alt="Лунное море логотип" src="images/logo.svg" class="big-logo">
-      <div class="content-width margin-bottom-1">
-        <h1>ЖК "Лунное море"</h1>
-        <div>Место откуда не хочется улетать</div>
-      </div>
+      <div class="container flex-direction-column align-items-center">
+        <div class="margin-bottom-1">
+          <img alt="Лунное море логотип" src="images/logo.svg" class="big-logo">
+          <h1>ЖК "Лунное море"</h1>
+          <div>Место откуда не хочется улетать</div>
+        </div>
 
-      <a href="#issue-section" class="btn btn-outline-white">Забронировать</a>
+        <a href="#issue-section" class="btn btn-outline-white w-25">Забронировать</a>
+      </div>
     </div>
-    <div class="container display-flex justify-content-center">
-      <section id="advantages" class="row content-width padding-y-3 justify-content-space-between">
+    <div class="display-flex justify-content-center">
+      <section id="advantages" class="container  padding-y-3 justify-content-space-between">
         <div class="col-4">
           <h2>Уникальный вид</h2>
           <p>
@@ -56,8 +58,8 @@
       </section>
     </div>
 
-    <div class="container display-flex justify-content-center background-color-gray">
-     <section id="about" class="row content-width padding-y-3 justify-content-space-between">
+    <div class="display-flex justify-content-center background-color-gray">
+     <section id="about" class="container padding-y-3 justify-content-space-between">
         <div class="col-6">
           <h2>О ЖК «Лунное море»</h2>
           <p>
@@ -70,8 +72,8 @@
         </div>
       </section>
     </div>
-    <div class="container display-flex justify-content-center">
-      <section id="relax" class="row content-width padding-y-3 justify-content-space-between">
+    <div class="display-flex justify-content-center">
+      <section id="relax" class="container padding-y-3 justify-content-space-between">
           <div class="col-4">
             <img alt="Лунный поселок" src="images/moon-2.jpg" class="section-image">
           </div>
@@ -85,8 +87,8 @@
           </div>
         </section>
    </div>
-    <div class="container display-flex justify-content-center background-color-gray">
-    <section id="issue-section" class="row flex-direction-column align-items-center content-width padding-y-3">
+    <div class="display-flex justify-content-center background-color-gray">
+      <section id="issue-section" class="container flex-direction-column align-items-center padding-y-3">
       <h2>Оставьте заявку сегодня!</h2>
       <form class="issue-form">
         <fieldset class="fieldset-issue">
@@ -129,7 +131,8 @@
    </div>
   </main>
   <footer class="footer padding-y-3 text-white">
-      <div class="display-flex align-items-center margin-right-auto margin-left-1 flex-direction-column justify-content-center">
+    <div class="container">
+      <div class="col-4 display-flex align-items-center margin-right-auto margin-left-1 flex-direction-column justify-content-center">
         <div class="display-flex align-items-center margin-bottom-1">
           <img alt="Лунное море логотип" class="footer-logo" src="images/logo.svg">
           <span class="margin-left-1">Лунное море</span>
@@ -159,6 +162,7 @@
           </li>
         </ul>
       </div>
+    </div>
   </footer>
 </body>
 </html>
